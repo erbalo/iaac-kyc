@@ -1,0 +1,22 @@
+[default]
+AWS_ACCOUNT = "596843193538"
+AWS_REGION = "us-west-2"
+ORG="draco"
+PROJECT_NAME = "kyc"
+NAMESPACE = "dev"
+
+
+[stage]
+AWS_ACCOUNT = "change-me"
+AWS_REGION = "change-me"
+ORG="draco"
+PROJECT_NAME = "kyc"
+NAMESPACE = "stg"
+
+
+[production]
+AWS_ACCOUNT = "change-me"
+AWS_REGION = "change-me"
+ORG="draco"
+PROJECT_NAME = "kyc"
+NAMESPACE = "prd"

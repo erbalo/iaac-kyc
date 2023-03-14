@@ -1,7 +1,7 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from iaac_kyc_draco.iaac_kyc_draco_stack import IaacKycDracoStack
+from infra.iaac_kyc_draco_stack import IaacKycDracoStack
 
 # example tests. To run these tests, uncomment this file along with the example
 # resource in iaac_kyc_draco/iaac_kyc_draco_stack.py

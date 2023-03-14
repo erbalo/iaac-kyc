@@ -3,7 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from iaac_kyc_draco.iaac_kyc_draco_stack import IaacKycDracoStack
+from infra.iaac_kyc_draco_stack import IaacKycDracoStack
 
 
 app = cdk.App()

@@ -55,4 +55,10 @@ command.
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
+
+To change the environment:
+```
+export ENV_FOR_DYNACONF=dev [Options= dev|stage|production] 
+```
+
 Enjoy!
